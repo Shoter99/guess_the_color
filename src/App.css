@@ -1,0 +1,20 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#img {
+  background-color: #fff;
+  height: 200px;
+}
+.color-to-guess {
+  background-color: #000;
+  width: 100%;
+  margin: 1rem;
+}
+.color-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
