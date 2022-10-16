@@ -5,13 +5,23 @@
   text-align: center;
 }
 #img {
-  background-color: #fff;
   height: 200px;
+  border: 3px solid white;
+  border-radius: 10px;
 }
 .color-to-guess {
-  background-color: #000;
+  background-color: #333;
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: 2px solid white;
   width: 100%;
   margin: 1rem;
+}
+.color-to-guess:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
 }
 .color-wrapper {
   display: flex;
